@@ -1,4 +1,4 @@
-:ROOT{
+:ROOT {
     --uofuRed: #A12D37;
 }
 
@@ -58,6 +58,7 @@ body {
                 background-color: #c8caaf;
                 margin: 5px 0 50px;
                 padding: 10px 10px 10px 15px;
+
                 aside {
                     border: 1px solid black;
 
@@ -65,8 +66,8 @@ body {
                         width: 30%;
                         float: left;
 
-                        nav{
-                            a{
+                        nav {
+                            a {
                                 display: block;
                                 color: black;
                                 text-decoration: none;
@@ -83,11 +84,12 @@ body {
                             }
                         }
 
-                        div.links{
+                        div.links {
                             margin: 50px auto 0;
                             width: 153px;
                         }
                     }
+
                     &.right {
                         width: 60%;
                         float: right;
@@ -105,21 +107,21 @@ body {
                         p {
                             font-size: 12px;
 
-                            strong{
+                            strong {
                                 font-size: 110%;
                             }
 
-                            &.link{
+                            &.link {
                                 text-align: right;
-                            }
 
-                            a {
-                                color: var(--uofuRed);
-                                text-transform: uppercase;
-                                text-decoration: none;
+                                a {
+                                    color: var(--uofuRed);
+                                    text-transform: uppercase;
+                                    text-decoration: none;
 
-                                &:hover {
-                                    text-decoration: underline;
+                                    &:hover {
+                                        text-decoration: underline;
+                                    }
                                 }
                             }
 
