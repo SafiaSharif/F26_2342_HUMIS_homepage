@@ -42,7 +42,10 @@ body {
                                 background-color: #505A2F;
                                 color: white;
                             }
+
                         }
+
+
                     }
 
                     .links {
@@ -61,18 +64,51 @@ body {
                     padding: 5px 20px;
 
                     nav {
-                        text-align: right;
+                        display: flex;
+                        justify-content: flex-end;
+                        gap: 5px;
+                        font-size: 10px;
+
+                        a {
+                            color: black;
+                            text-decoration: none;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+
+                            &.top-nav {
+                                text-transform: uppercase;
+                            }
+
+                            &.bottom-nav {
+                                text-transform: lowercase;
+                                font-size: 9px;
+                            }
+                        }
+                    }
+
+                    main {
+                        border: 1px dotted black;
+
+                        img {
+                            &.pull-right {
+                                float: right;
+                                width: 150px;
+                                margin: 0 0 15px 15px;
+                            }
+                        }
                     }
                 }
             }
         }
+    }
 
-        footer {
-            background-color: var(--green);
-            color: white;
-            font-size: 11px;
-            text-align: center;
-            padding: 10px 0;
-        }
+    footer {
+        background-color: var(--green);
+        color: white;
+        font-size: 11px;
+        text-align: center;
+        padding: 10px 0;
     }
 }
