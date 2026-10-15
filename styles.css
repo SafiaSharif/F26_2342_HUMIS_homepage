@@ -54,14 +54,12 @@ body {
             }
 
             section.brown-box {
-                /*height: 400px;*/
+                min-height: 400px;
                 background-color: #c8caaf;
                 margin: 5px 0 50px;
                 padding: 10px 10px 10px 15px;
 
                 aside {
-                    border: 1px solid black;
-
                     &.left {
                         width: 30%;
                         float: left;
