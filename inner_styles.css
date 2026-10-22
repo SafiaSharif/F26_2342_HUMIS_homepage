@@ -13,8 +13,8 @@ body {
         width: 780px;
         min-height: 600px;
 
-        header{
-            img{
+        header {
+            img {
                 display: block;
             }
         }
@@ -73,7 +73,7 @@ body {
                     flex-direction: column;
                     padding: 5px 20px;
 
-                    nav {
+                    nav.secondary {
                         display: flex;
                         justify-content: flex-end;
                         gap: 5px;
@@ -96,17 +96,13 @@ body {
                                 font-size: 9px;
                             }
                         }
+
                     }
 
                     main {
-                        img {
-                            &.pull-right {
-                                float: right;
-                                width: 150px;
-                                margin: 0 0 15px 15px;
-                            }
-                        }
+                        min-height: 600px;
                     }
+
                 }
             }
         }
