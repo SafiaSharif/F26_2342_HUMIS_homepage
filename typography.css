@@ -1,5 +1,6 @@
 :root {
     --burgundy: #A12d37;
+    --dark: #000;
 
 }
 body {
@@ -39,10 +40,32 @@ body {
 
     h6 {
         font-size: 1rem;
+        margin-bottom: 0;
     }
 
     p {
         text-align: justify;
         font-size: 0.75rem;
+
+        &.learn-more {
+            text-align: right;
+
+            a {
+                color: var(--burgundy);
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        /* @TO DO come up with a better name here! */
+        .shrug {
+            font-size: 1.3rem;
+            color: var(--burgundy);
+            font-weight: bold;
+        }
+
     }
 }
